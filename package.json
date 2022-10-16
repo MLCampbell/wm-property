@@ -1,0 +1,14 @@
+{
+  "name": "wm-property",
+  "source": "/src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "parcel": "^2.7.0",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.1.8"
+  }
+}
