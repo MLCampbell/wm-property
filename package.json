@@ -2,13 +2,16 @@
   "name": "wm-property",
   "source": "/src/index.html",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build"
+    "clean:output": "rimraf dist",
+    "start": "npm run clean:output && parcel src/index.html",
+    "build": "npm run clean:output && parcel build src/index.html"
+    
   },
   "devDependencies": {
     "autoprefixer": "^10.4.12",
     "parcel": "^2.7.0",
     "postcss": "^8.4.18",
+    "rimraf": "^3.0.2",
     "tailwindcss": "^3.1.8"
   },
   "dependencies": {

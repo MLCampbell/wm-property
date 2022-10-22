@@ -1,2 +1,0 @@
-function scrollFunction(){document.body.scrollTop>80||document.documentElement.scrollTop>80?(document.getElementById("nav-bar").style.paddingBottom="1rem",document.getElementById("nav-bar").style.paddingTop="0.2rem",document.getElementById("logo").style.fontSize="1.125rem"):(document.getElementById("nav-bar").style.paddingBottom="2rem",document.getElementById("nav-bar").style.paddingTop="2rem",document.getElementById("logo").style.fontSize="2.25rem")}window.onscroll=function(){scrollFunction()};
-//# sourceMappingURL=index.bcdde56d.js.map
