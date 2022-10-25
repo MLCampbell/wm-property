@@ -3,3 +3,4 @@ src/
 .parcel-cache*
 package-lock.json
 dist/
+.vscode
