@@ -1,0 +1,6 @@
+# *
+useragent: *
+allow: /
+
+# Sitemaps
+Sitemap: https://resolvepropertybuyers.com/sitemap.xml
