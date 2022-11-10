@@ -1,11 +1,15 @@
 {
   "name": "wm-property",
   "source": "/src/index.html",
+  "simple-webp-converter": {
+    "src": "src/img/*.{png,jpg,jpeg}"
+  },
   "scripts": {
     "clean:output": "rimraf dist",
     "start": "npm run clean:output && parcel src/index.html",
     "build": "npm run clean:output && parcel build src/index.html",
-    "compile": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+    "compile": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "webp": "simple-webp-converter"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.12",
@@ -14,6 +18,7 @@
     "postcss": "^8.4.18",
     "process": "^0.11.10",
     "rimraf": "^3.0.2",
+    "simple-webp-converter": "^1.0.3",
     "tailwindcss": "^3.1.8"
   },
   "dependencies": {
