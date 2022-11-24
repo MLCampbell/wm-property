@@ -4,3 +4,5 @@ src/
 package-lock.json
 dist/
 .vscode
+clearroot.sh
+movetoroot.sh
