@@ -247,6 +247,18 @@ button {
 
 }
 
+#no-hover-online-form-text,
+#no-hover-online-form-text:visited
+#no-hover-online-form-text:link {
+    transition: none;
+}
+
+#no-hover-online-form-text:hover,
+#no-hover-online-form-text:active {
+    transform: none;
+    box-shadow: none;
+}
+
 .modal-btn,
 .modal-btn:visited,
 .modal-btn:link {
